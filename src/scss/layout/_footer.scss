@@ -1,9 +1,11 @@
 .page__footer {
   position: fixed;
+  background-color: rgb(212, 211, 211);
+  width: 100%;
   left: 0;
   bottom: 0;
   width: 100vw;
   padding: 0.5rem;
-  font-size: x-small;
+  font-size: 0.6rem;
   color: $color-secondary;
 }

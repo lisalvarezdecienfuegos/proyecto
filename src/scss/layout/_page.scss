@@ -10,13 +10,20 @@ body {
    transform: translate(-50%);
    top: 10%;
    width: 100%;
-   background: url("") center center no-repeat;
-   align-items: center;
+   height: 100%;
  }
  .main_text{
    position: relative;
+   margin: 5%;
    color: rgb(43, 42, 42);
    font-style: italic;
    font-weight: bold;
    text-align: center;
+ }
+ .imagen_main{
+   position: absolute;
+  max-width: 300px;
+  max-height: 300px;
+  left:50%;
+  transform: translate(-50%);
  }
