@@ -23,15 +23,35 @@ body {
   transform: translate(-50%);
  }
  .about_me{
-  position: absolute; 
-  left: 50%;
-  padding-top: 2vh;
-  padding-bottom: 10vh;
-  transform: translate(-50%);
+   margin: auto;
+  padding-top: 3em;
   text-align: center; 
-  width: 70vw;
-}
+  max-width: 70vw;
+  }
 
   .about_title{
     line-height: 3rem;
+  }
+
+  .destinations_section{
+    padding-top: 3em;
+    padding-bottom: 3em;
+    text-align: center; 
     }
+  
+  .destinations_title{
+    line-height: 3rem;
+  }
+  .destinations_list{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  .destinations_images{
+    width: 100px;
+    height:100px;
+  }
+  .country{
+    min-width: 10vw;
+    margin: 5vw;
+  }
