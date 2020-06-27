@@ -30,7 +30,7 @@ body {
   }
 
   .about_title{
-    line-height: 3rem;
+    padding-bottom: 1rem;
   }
 
   .destinations_section{
@@ -40,7 +40,7 @@ body {
     }
   
   .destinations_title{
-    line-height: 3rem;
+    padding-bottom: 1rem;
   }
   .destinations_list{
     display: flex;
@@ -48,10 +48,13 @@ body {
     justify-content: center;
   }
   .destinations_images{
+    border-radius: 50%;
     width: 100px;
     height:100px;
   }
   .country{
     min-width: 10vw;
-    margin: 5vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-bottom: 5vh;
   }
