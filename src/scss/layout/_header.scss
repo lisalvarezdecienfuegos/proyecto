@@ -1,13 +1,13 @@
 .header {
-  position: absolute; 
+  position: fixed; 
   display: flex;
   justify-content: space-between; 
   background-color: black;
-  height: 4.2rem;
+  height: 2rem;
   width: 100%;
   }
   .header_image {
-    width: 100px;
+    width: 60px;
     height: auto;
   }
   .menu{
@@ -21,6 +21,6 @@
     text-decoration: none;
     color: whitesmoke;
     font: bold;
-    font-size: x-small;
+    font-size: 0.5rem;
     padding: 0.2rem;
   }

@@ -1,6 +1,22 @@
 body {
- margin: 0;
-  height: 100vh;
-  background: url("") center center no-repeat;
-  font-family: $font-main;
-}
+   margin: 0;
+   height: 100vh;
+   background-color: rgb(212, 211, 211);
+   font-family: $font-main;
+ }
+ .contenido{
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%);
+   top: 10%;
+   width: 100%;
+   background: url("") center center no-repeat;
+   align-items: center;
+ }
+ .main_text{
+   position: relative;
+   color: rgb(43, 42, 42);
+   font-style: italic;
+   font-weight: bold;
+   text-align: center;
+ }
