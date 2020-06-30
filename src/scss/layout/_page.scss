@@ -1,19 +1,9 @@
-body {
-   margin: 0;
-   background-color: rgb(212, 211, 211);
-   font-family: $font-main;
- }
- main{
-   position: absolute;
-   width: 100vw;
-   top: 8vh;
- }
  .main_text{
    color: rgb(43, 42, 42);
    font-style: italic;
    font-weight: bold;
    text-align: center;
-   margin: 5vh;
+   margin: $margin_main;
  }
  .imagen_main{
    position: relative;
