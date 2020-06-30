@@ -3,14 +3,14 @@
         website, shoot me a message!</div>
 
     <form action="/contact" method="post">
-        <label>First name</label>
-        <input type="text" name="firstName">
-        <label>Last name</label>
-        <input type="text" name="lastName">
-        <label>Email</label>
-        <input type="text" name="email">
-        <label>Message</label>
-        <input type="text" name="message" class="message_box">
+        <label for="firstName">First name</label>
+        <input placeholder="Name" id="firstName" type="text" name="firstName">
+        <label for="lastName">Last name</label>
+        <input placeholder="Last Name" id="lastName" type="text" name="lastName">
+        <label for="email">Email</label>
+        <input placeholder="enteryouremail@mail.com" id="email" type="text" name="email">
+        <label for="message_box">Message</label>
+        <input placeholder="Message" id="message_box" type="text" name="message" class="message_box">
         <input type="submit" value="Send" class="btn_submit">
     </form>
 </main>
