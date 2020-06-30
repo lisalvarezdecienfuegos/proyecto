@@ -31,3 +31,10 @@ input{
     width: auto;
     padding: 0.1rem;
 }
+.country *{
+    display: inline-block;
+    width: auto;
+}
+.country input{
+    height: 0.4rem;
+}

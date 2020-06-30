@@ -1,16 +1,38 @@
 <main>
-    <div class="contact_message">If you´d like more info or recommendations about any of the destinations listed in my
-        website, shoot me a message!</div>
+    <div class="contact_message">If you´d like more info or recommendations about any of the destinations listed in my blog, shoot me a message!</div>
 
-    <form action="/contact" method="post">
+    <form action="" method="post">
         <label for="firstName">First name</label>
-        <input placeholder="Name" id="firstName" type="text" name="firstName">
+            <input placeholder="Name" id="firstName" type="text" name="firstName" required>
         <label for="lastName">Last name</label>
-        <input placeholder="Last Name" id="lastName" type="text" name="lastName">
-        <label for="email">Email</label>
-        <input placeholder="enteryouremail@mail.com" id="email" type="text" name="email">
+            <input placeholder="Last Name" id="lastName" type="text" name="lastName">
+        <label for="email_address">Email</label>
+            <input placeholder="provide your email if you require an answer" id="email_address" type="email" name="email">
+        <label class="topic">Topic</label>
+            <div class="country">
+            <label for="nz">
+                <input id="nz" type="checkbox" value="nz" name="nz">
+                New Zealand
+            </label>
+            <label for="th">
+                <input id="th" type="checkbox" value="th" name="th">
+                Thailand</label>
+            <label for="nz">
+                <input id=la type="checkbox" value="la" name="la">
+                Laos</label>
+            <label for="sp">
+                <input id="sp" type="checkbox" value="sp" name="sp">
+                Spain</label>
+            <label for="ca">
+                <input id="ca" type="checkbox" value="ca" name="ca">
+                Canada</label>
+            <label for="aus">
+                <input id="aus" type="checkbox" value="aus" name="aus">
+                Australia</label>
+            </div>
+
         <label for="message_box">Message</label>
-        <input placeholder="Message" id="message_box" type="text" name="message" class="message_box">
+            <input placeholder="Message" id="message_box" type="text" name="message" class="message_box" required>
         <input type="submit" value="Send" class="btn_submit">
     </form>
 </main>
