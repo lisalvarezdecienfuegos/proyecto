@@ -24,8 +24,13 @@ input{
     font-size: x-small;
     margin-bottom: 0.5rem;
 }
-.message_box{
-    height: 5rem;
+textarea{
+    font-size: x-small;
+    margin-bottom: 0.5rem;
+}
+.buttons{
+    display: inline-flex;
+    justify-content: center;
 }
 .btn_submit{
     width: auto;
