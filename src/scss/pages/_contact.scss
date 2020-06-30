@@ -1,18 +1,33 @@
 .contact_message{
     text-align: center;
     padding: $margin_main;
+    font-style: italic;
 }
 form{
     display: flex;
     flex-flow: column nowrap;
     width: 100vw;
-    height: 50vh;
+    height: auto;
     padding: 0.5rem;
     justify-content: space-evenly;
 }
 form *{
     display: block;
-    width: 40vw;
+    width: 35vw;
     align-self: center;
-    margin: 0.2rem;
+    margin: 0.1rem;
+}
+.form_field_text{
+    font-size: xx-small;
+}
+input{
+    font-size: x-small;
+    margin-bottom: 0.5rem;
+}
+.message_box{
+    height: 5rem;
+}
+.btn_submit{
+    width: auto;
+    padding: 0.1rem;
 }
