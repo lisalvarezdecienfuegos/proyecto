@@ -1,0 +1,29 @@
+.contact_popup_content{
+    position:fixed;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: 120px;
+    background-color: rgb(185, 185, 206);
+    border: grey solid 2px;
+    border-radius: 5px;
+    box-shadow: grey 2px;
+    z-index: 2;
+    transition: top 2s;
+    animation-name: popup;
+    animation-duration: 2s;
+}
+.contact_popup_content p{
+    text-align: center;
+    margin-top: 2rem;
+}
+@keyframes popup {
+    from {
+    top: 150vh;
+    }
+  
+    to {
+      top:50vh;
+    }
+}

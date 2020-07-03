@@ -43,3 +43,9 @@ textarea{
 .country input{
     height: 0.4rem;
 }
+#contact_page {
+    animation-name: contact_page_background;
+    background-color: rgb(131, 118, 118);
+    opacity: 40%;
+    transition: ease 2s;
+}
