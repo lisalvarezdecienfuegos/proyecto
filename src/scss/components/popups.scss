@@ -11,20 +11,27 @@
     box-shadow: grey 2px;
     z-index: 2;
     transition: top 2s;
-    animation-name: popup;
+    animation-name: popup_up;
     animation-duration: 2s;
-    display: none;
 }
 .contact_popup_content p{
     text-align: center;
     margin-top: 2rem;
 }
-@keyframes popup {
+@keyframes popup_up {
     from {
     top: 150vh;
     }
   
     to {
       top:50vh;
+    }
+}
+@keyframes popup_down {
+    from{
+        top: 150vh;
+    }
+    to{
+        top:50vh;
     }
 }

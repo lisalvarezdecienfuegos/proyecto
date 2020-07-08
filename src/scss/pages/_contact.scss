@@ -39,23 +39,26 @@ textarea{
     width: auto;
     padding: 0.1rem;
 }
-.country{
+.contact_country{
     display: grid;
     grid-template-columns: 5rem 5rem;
     grid-template-rows: 1fr 1fr 1fr;
     justify-content: center;
 }
-.country input{
+.contact_country input{
     display: inline-block;
     width:12px;
     height: 0.4rem;
 }
-.country label{
+.contact_country label{
     font-size: 0.5rem;
 }
 #contact_page {
     animation-name: contact_page_background;
-    background-color: rgb(131, 118, 118);
+    opacity: 50%;
+    transition: ease 2s;
+}
+#contact_page:hover{
     opacity: 100%;
     transition: ease 2s;
 }
